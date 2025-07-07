@@ -1,9 +1,75 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-  <title>Zalando Landing</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zalando Gutschein Wettbewerb</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #ffffff, #f2f2f2);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      padding: 2.5rem 2rem;
+      max-width: 420px;
+      width: 90%;
+      text-align: center;
+    }
+    .card img {
+      width: 140px;
+      margin-bottom: 1.5rem;
+    }
+    .card h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+    .card p {
+      color: #555;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    .cta-button {
+      background-color: #ff6900;
+      color: white;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease;
+      display: inline-block;
+    }
+    .cta-button:hover {
+      background-color: #e85d00;
+    }
+    .trust-badge {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-  <h1>مرحبا بك</h1>
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Zalando_logo_2021.svg/320px-Zalando_logo_2021.svg.png" alt="Zalando Logo">
+    <h1>🎉 Gewinne 500€ Zalando Gutschein!</h1>
+    <p>Exklusive Teilnahme nur für kurze Zeit! Beantworte ein paar einfache Fragen und sichere dir deine Chance.</p>
+    <a href="https://smrturl.co/a/s4fbb2c69a2/6172?s1=landingpage" class="cta-button">Jetzt teilnehmen</a>
+    <div class="trust-badge">* Teilnahme nur für Einwohner Deutschlands ab 18 Jahren. Es gelten die AGB.</div>
+  </div>
 </body>
 </html>
+
