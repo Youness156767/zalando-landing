@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gewinne einen 500€ Zalando Gutschein</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
+    .container { max-width: 600px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h1 { color: #1a237e; text-align: center; }
+    .zalando-logo { display: block; margin: 0 auto 20px auto; width: 120px; }
+    .features { margin: 20px 0; }
+    .features li { margin-bottom: 10px; list-style: none; }
+    .features li::before { content: '✅'; margin-right: 8px; }
+    .cta { background: #ff5722; color: white; padding: 15px; border: none; font-size: 16px; border-radius: 5px; display: block; width: 100%; cursor: pointer; text-align: center; text-decoration: none; }
+    .footer { font-size: 12px; color: gray; text-align: center; margin-top: 20px; }
+    .countdown { font-weight: bold; color: #d32f2f; text-align: center; margin: 10px 0; }
+    .reviews { background: #f1f1f1; padding: 10px; border-radius: 5px; margin-top: 20px; }
+    .review { margin-bottom: 10px; }
+    .email-form { margin-top: 20px; text-align: center; }
+    .email-form input[type="email"] { padding: 10px; width: 80%; border: 1px solid #ccc; border-radius: 4px; }
+    .email-form button { padding: 10px 20px; background: #1a73e8; color: white; border: none; border-radius: 4px; margin-top: 10px; cursor: pointer; }
+  </style>
+  <script>
+    function startCountdown(duration) {
+      var countdown = duration;
+      var display = document.querySelector('#countdown');
+      setInterval(function () {
+        var minutes = parseInt(countdown / 60, 10);
+        var seconds = parseInt(countdown % 60, 10);
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+        display.textContent = minutes + ":" + seconds;
+        if (--countdown < 0) countdown = 0;
+      }, 1000);
+    }
+    window.onload = function () {
+      startCountdown(180);
+    };
+  </script>
+</head>
+<body>
+  <div class="container">
+    <img class="zalando-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Zalando-Logo.svg/2560px-Zalando-Logo.svg.png" alt="Zalando Logo">
+    <h1>🎉 Gewinne einen 500€ Zalando Gutschein!</h1>
+    <p style="text-align:center">Nimm jetzt an unserer kurzen Umfrage teil und sichere dir die Chance auf einen exklusiven Zalando-Gutschein im Wert von 500€.</p>
+    <ul class="features">
+      <li>100% kostenlos</li>
+      <li>Nur 1 Minute deiner Zeit</li>
+      <li>Gültig für alle in Deutschland</li>
+    </ul>
+
+    <div class="countdown">
+      ⏳ Nur noch <span id="countdown">03:00</span> bis das Angebot abläuft!
+    </div>
+
+    <a class="cta" href="https://smrturl.co/a/s4fbb2c69a2/6172?s1=">Jetzt teilnehmen</a>
+
+    <div class="email-form">
+      <p>🔒 Gib deine E-Mail-Adresse ein, um deinen Gutschein zu sichern:</p>
+      <input type="email" placeholder="Deine E-Mail" required>
+      <br>
+      <button>Absenden</button>
+    </div>
+
+    <div class="reviews">
+      <div class="review">"Sabine M. aus Berlin hat gerade gewonnen!" 🎉</div>
+      <div class="review">"Tobias L. sagt: Ich konnte wirklich kostenlos shoppen!" ⭐⭐⭐⭐⭐</div>
+      <div class="review">"Einfach und schnell – danke Zalando!" – Katrin W.</div>
+    </div>
+
+    <div class="footer">
+      * Teilnahme ab 18 Jahren. Dieses Angebot steht nur für Einwohner Deutschlands zur Verfügung. Es gelten die AGB.
+    </div>
+  </div>
+</body>
+</html>
