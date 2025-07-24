@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gewinne ein iPhone 16!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+      color: #333;
+    }
+    header {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .container {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    h1 {
+      font-size: 2rem;
+      color: #e60000;
+    }
+    p {
+      font-size: 1.1rem;
+      margin: 1rem 0;
+    }
+    .btn {
+      display: inline-block;
+      background: #e60000;
+      color: white;
+      padding: 1rem 2rem;
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #b30000;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Nur für kurze Zeit!</h2>
+  </header>
+
+  <div class="container">
+    <img src="https://cdn.pixabay.com/photo/2023/08/28/16/10/iphone-8218181_1280.jpg" alt="iPhone 16">
+    <h1>Gewinne ein brandneues iPhone 16!</h1>
+    <p>Sei einer der Ersten, der das neue iPhone 16 in den Händen hält. Nimm an unserem exklusiven Gewinnspiel teil!</p>
+    <a class="btn" href="https://smrturl.co/a/s4fbb2c69a2/378?s1=" target="_blank">Jetzt teilnehmen</a>
+  </div>
+
+  <footer>
+    © 2025 | Dieses Gewinnspiel steht in keiner Verbindung zu Apple Inc.
+  </footer>
+
+</body>
+</html>
